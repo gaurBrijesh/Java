@@ -5,7 +5,12 @@ package Algorithm;
  */
 
 /**
- * the binary-search algorithm searches a one-dimensional array for a specific data item. Unlike linear-search, however, binary-search divides the one-dimensional array into lower and upper sections by calculating the middle element's index. If the data item is found in that element, binary-search ends. If the data item is numerically less than the data item in the middle element, binary-search calculates the index of the middle element in the lower section, ignores the upper section, and repeats. Otherwise, binary-search calculates the index of the middle element in the upper section, ignores the lower section, and repeats. The search continues until either the data item is found or the current section's lower bound exceeds the upper bound
+ * the binary-search algorithm searches a one-dimensional array for a specific data item. Unlike linear-search, however, binary-search divides the one-dimensional array into lower and upper sections by calculating the middle element's index.
+ * If the data item is found in that element, binary-search ends.
+ * If the data item is numerically less than the data item in the middle element, binary-search calculates the index of the middle element in the lower section, ignores the upper section, and repeats.
+ * Otherwise, binary-search calculates the index of the middle element in the upper section, ignores the lower section, and repeats.
+ * The search continues until either the data item is found or the current section's lower bound exceeds the upper bound
+ *
  */
 /*
 DECLARE INTEGER x [] = [ -5, 12, 15, 20, 30, 72, 456 ]
